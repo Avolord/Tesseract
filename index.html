@@ -1,0 +1,32 @@
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Tesseract
+  </title>
+  <style type="text/css">
+    p {
+      visibility: visible;
+      position: absolute;
+      left: 20;
+      color: red;
+    }
+  </style>
+</head>
+<script src="AvoLib.js"></script>
+
+<body onload="setup()">
+  <p id="Count">0</p>
+</body>
+<script>
+  Canvas = new CanDraw("", "", "rgb(30,30,30)", 4);
+  let width = Canvas.Element.width;
+  let height = Canvas.Element.height;
+</script>
+<script src="V4D.js"></script>
+<script src="V3D.js"></script>
+<script src="Tesseract.js"></script>
+<script src="setup.js"></script>
+
+</html>
